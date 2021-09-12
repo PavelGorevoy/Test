@@ -1,0 +1,35 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title-block {
+  color: $coral;
+  font-size: 40px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.title-block__item {
+  font-size: 16px;
+  line-height: 1.438;
+}
+
+.button {
+  border-radius: 0;
+  border: none;
+  background-color: $dark-yellow;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 196px;
+  height: 48px;
+  cursor: pointer;
+}

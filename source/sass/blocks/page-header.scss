@@ -1,0 +1,36 @@
+.page-header {
+  background-color: $coral;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.page-header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1290px;
+  height: 61px;
+}
+
+.page-header__list {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 498px;
+  margin: 0;
+
+  li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 7.51;
+
+    a {
+      text-decoration: none;
+      color: $basic-white;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// Начните писать стили здесь
+
+// global
+@import "global/variables";
+@import "global/global";
+@import "global/fonts";
+
+// blocks
+
+// global blocks
+@import "blocks/page";
+@import "blocks/page-header";
+
+// index page
+@import "blocks/page-intro";
+@import "blocks/page-about";
+@import "blocks/title-block";
+@import "blocks/page-work";
+@import "blocks/page-services";
+@import "blocks/page-contact";
+@import "blocks/page-footer";
+

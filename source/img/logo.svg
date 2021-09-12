@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="20" viewBox="0 0 125 20">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 52px;
+        fill: #fff;
+        font-family: OpenSans;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .cls-2 {
+        fill: #cfc91d;
+      }
+    </style>
+  </defs>
+  <text id="MYFOLIO" class="cls-1" transform="translate(-2.077 18.719) scale(0.503)">MY<tspan class="cls-2">FOLIO</tspan></text>
+</svg>

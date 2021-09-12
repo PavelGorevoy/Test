@@ -1,0 +1,37 @@
+.page-intro__block {
+  background-image: url("../../img/bg_intro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+  height: 728px;
+}
+
+.page-intro__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 30px;
+  color: $basic-white;
+
+  :nth-child(1) {
+    font-size: 30px;
+    line-height: 0.833;
+  }
+
+  :nth-child(2) {
+    font-size: 80px;
+    text-transform: uppercase;
+  }
+
+  :nth-child(3) {
+    font-size: 20px;
+  }
+}
