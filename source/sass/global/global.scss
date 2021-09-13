@@ -12,10 +12,37 @@
 }
 
 .title-block {
+  position: relative;
+  display: block;
   color: $coral;
   font-size: 40px;
   margin: 0;
   text-transform: uppercase;
+
+  &::after {
+    content: "~~~~~~~~ :: ~~~~~~~~";
+    position: absolute;
+    top: 160px;
+    left: 6px;
+    font-size: 18px;
+    color: $text-color;
+    z-index: 3;
+  }
+
+
+  &--services {
+    &::after {
+      content: "~~~~~ :: ~~~~~";
+      top: 130px;
+      left: 0;
+    }
+  }
+
+  &--contact {
+    &::after {
+      left: 43px;
+    }
+  }
 }
 
 .title-block__item {
